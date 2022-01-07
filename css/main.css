@@ -13,8 +13,6 @@ body {
     background-color: #fff;
 }
 
-.container {}
-
 .figma {
     display: none;
 }
@@ -146,9 +144,9 @@ input {
 }
 
 .recents {
-    padding: 5px;
-    margin-top: 20px;
-    background-color: #c9e1f8;
+    padding: 5px 3px;
+    margin-top: 15px;
+    background-color: #daebf7;
 }
 
 .bx-time {
@@ -195,7 +193,7 @@ input {
 
 .com-btn {
     padding: 2px 4px;
-    background-color: #42945d;
+    background-color: #1bc47d;
     color: #fff;
     font-size: 9px;
     border: none;
@@ -213,8 +211,8 @@ input {
 }
 
 .up-btn:hover {
-    background-color: #b4e5f8;
-    outline-color: #2f7df1;
+    background-color: #daebf7;
+    outline-color: #daebf7;
 
 }
 
@@ -237,6 +235,14 @@ input {
 
 .drafts:hover .team-plus{
     display: block;
+}
+
+.plus{
+    padding: 5px 3px;
+}
+
+.plus:hover{
+    background-color: #f0f0f0;
 }
 
 .bx-plus {
@@ -272,7 +278,7 @@ input {
 
 .checkbox {
     display: block;
-    background-color: #5230e7;
+    background-color: #5551ff;
     width: 15px;
     height: 15px;
     border: 1px solid transparent;
@@ -362,7 +368,7 @@ input {
 }
 
 .picsum-list {
-    padding: 18px 10px;
+    padding: 18px 0;
 }
 
 .picsum-item {
@@ -398,6 +404,14 @@ input {
     padding: 0 3px;
     font-size: 20px;
     cursor: pointer;
+    background-color: #fff;
+    border: none;
+    outline: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.menu-btn:hover{
+    background-color: #daebf7;
 }
 
 .mark {
