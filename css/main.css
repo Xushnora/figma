@@ -172,7 +172,7 @@ input {
 }
 
 .menu-text {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .hr {
@@ -182,7 +182,9 @@ input {
 }
 
 .upgrade-text {
-    font-size: 13px;
+    font-size: 12px;
+    width: 160px;
+    height: 60px;
 }
 
 .up-btn {
@@ -211,7 +213,6 @@ input {
 }
 
 .community:hover .bx-right-arrow-alt {
-    font-size: 26px;
     margin-left: 33px;
 }
 
