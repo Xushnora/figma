@@ -171,10 +171,6 @@ input {
     font-size: 18px;
 }
 
-.menu-text {
-    font-size: 12px;
-}
-
 .hr {
     width: 200px;
     height: 2px;
@@ -227,24 +223,44 @@ input {
     margin-left: 10px;
 }
 
-.drafts:active {
-    background-color: #c9e1f8;
-    padding: 5px;
+.drafts{
+    position: relative;
 }
 
-.drf-plus {
+.drf-plus .team-plus{
     display: none;
+    font-size: 15px;
+    position: absolute;
+    left: 150px;
+    top: 5px;
+}
+
+.drafts:hover .team-plus{
+    display: block;
+}
+
+.bx-plus {
+    font-size: 25px;
+    margin-right: 15px;
+    color: rgba(26, 26, 26, 0.753);
+}
+
+.team{
+    position: relative;
+    left: 30px;
 }
 
 .team-plus {
     display: none;
+    font-size: 20px;
+    position: absolute;
+    left: 120px;
+    top: -4px;
 }
 
-.team:hover {
+.team:hover .team-plus{
     display: block;
 }
-
-.community {}
 
 .menu-text {
     font-size: 13px;
@@ -261,12 +277,25 @@ input {
     height: 15px;
     border: 1px solid transparent;
     margin-right: 15px;
+    position: relative;
 }
 
-.bx-plus {
-    font-size: 25px;
-    margin-right: 15px;
-    color: rgba(26, 26, 26, 0.753);
+.checkbox .team-plus{
+    display: none;
+    font-size: 20px;
+    position: absolute;
+    left: 1px;
+    top: -4px;
+}
+
+.checkbox:hover .team-plus{
+    display: block;
+}
+
+.plas{
+    position: absolute;
+    left: 290px;
+    top: 20px;
 }
 
 .main {
@@ -303,6 +332,7 @@ input {
     width: 330px;
     height: 70px;
     margin-left: 20px;
+    position: relative;
 }
 
 .main-item:hover {
